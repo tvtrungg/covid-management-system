@@ -72,7 +72,7 @@ export class RateLimiter {
 // Predefined rate limiters
 export const loginRateLimiter = new RateLimiter({
   windowMs: 15 * 60 * 1000, // 15 minutes
-  maxRequests: 20, // 5 login attempts per 15 minutes
+  maxRequests: 6, // 6 login attempts per 15 minutes
   keyGenerator: (ip: string) => `login:${ip}`,
 })
 
