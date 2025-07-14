@@ -58,22 +58,11 @@ cp .env.example .env.local
 ```env
 # Supabase
 NEXT_PUBLIC_SUPABASE_URL=https://your-project-id.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
 SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
-
-# PostgreSQL
-POSTGRES_URL=postgresql://postgres:[PASSWORD]@db.your-project-id.supabase.co:5432/postgres
-POSTGRES_PRISMA_URL=...pgbouncer=true&connect_timeout=15
-POSTGRES_URL_NON_POOLING=...
-POSTGRES_USER=postgres
-POSTGRES_HOST=db.your-project-id.supabase.co
-POSTGRES_PASSWORD=your-password
-POSTGRES_DATABASE=postgres
 
 # JWT
 JWT_SECRET=generate-a-strong-secret
 JWT_REFRESH_SECRET=generate-another-strong-secret
-SUPABASE_JWT_SECRET=your-supabase-jwt-secret
 
 # Environment
 NODE_ENV=development
