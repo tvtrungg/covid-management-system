@@ -105,11 +105,8 @@ In order:
 -- scripts/01-init-database.sql
 -- scripts/02-seed-data.sql
 -- scripts/03-add-functions.sql
--- scripts/04-fix-sample-data.sql
--- scripts/05-fix-foreign-keys.sql
--- scripts/06-fix-transactions.sql
--- scripts/07-auth-security-tables.sql
--- scripts/08-analytics-notifications-search.sql
+-- scripts/04-auth-security-tables.sql
+-- scripts/05-analytics-notifications-search.sql
 ```
 
 ### 6. Run the App
