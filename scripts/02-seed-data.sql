@@ -28,9 +28,9 @@ INSERT INTO treatment_locations (name, capacity, current_count) VALUES
 
 -- Insert data into users
 INSERT INTO users (username, password_hash, role, is_active, first_login) VALUES
-('admin', '$2a$10$examplehash1', 'admin', true, false),
-('manager1', '$2a$10$examplehash2', 'manager', true, false),
-('user1', '$2a$10$examplehash3', 'user', true, true);
+('admin', '$2b$10$OzFC.pk4CKBBzttP4o0rIu73W24P8yOpFuwC5YD3NsVc6k2zscag.', 'admin', true, false),
+('manager1', '$2b$10$GX37WDbeM9hwnm7wf3NU2e67bxTB.4LZVIPpOSf8ZNuGUSotZursm', 'manager', true, false),
+('user1', '$2b$10$GOgeK/l1tlzEkfX328tL0.atJnN9dB1/cwRbT0.wYLnl/4t7CD9Qu', 'user', true, true);
 
 -- Insert data into covid_people
 INSERT INTO covid_people (full_name, id_number, birth_year, province_id, district_id, ward_id, status, treatment_location_id, user_id) VALUES

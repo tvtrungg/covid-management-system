@@ -126,7 +126,7 @@ Visit [http://localhost:3000](http://localhost:3000)
 
 | Role    | Username | Password   |
 | ------- | -------- | ---------- |
-| Admin   | admin    | admin123   |
+| Admin   | admin    | admin   |
 | Manager | manager1 | manager123 |
 | User    | user1    | user123    |
 
